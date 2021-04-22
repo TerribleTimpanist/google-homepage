@@ -1,4 +1,43 @@
 
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 8px 0;
+    font-size: .85em;
+    width: 100%;
+}
+
+.nav-bar li {
+    float: left;
+}
+
+.nav-bar li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color:rgb(226, 222, 222)
+}
+.nav-bottom {
+    padding: 10px 0;
+    background-color:rgb(226, 222, 222);
+    height: 30px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.nav-bottom li {
+    background-color:rgb(226, 222, 222)
+    
+}
+
 main {
     text-align: center;
     margin: 0;
@@ -7,16 +46,17 @@ main {
 
 #logo {
     display: block;
-    margin: 200px auto 50px auto;
+    margin: 200px auto 40px auto;
 }
 
 #search-form {
     max-width: 400px;
-    height: 80px;
+    height: 95px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 #input {
@@ -32,17 +72,16 @@ main {
     align-items: center;
     height: 36px;
     border-width: 1px;
-    border-color: rgb(236, 232, 232);
-    border-style:inset;
-    border-radius: 15px;
-    box-shadow: 0 0 5px 1px rgb(190, 186, 186);
+    border-color: rgb(211, 208, 208);
+    border-style:solid;
+    border-radius: 25px;
 }
 
-#search-bubble:hover {
+#search-bubble:hover, #search-bubble:focus-within {
     box-shadow: 0 0 10px 2px rgb(190, 186, 186);
 }
 #search-icon {
-    max-height: 26px;
+    max-height: 24px;
     padding-left: 8px;
 }
 
@@ -54,4 +93,19 @@ main {
 button {
     margin-left: 5px;
     margin-right: 5px;
+    margin-top:2px;
+    margin-bottom:2px;
+    padding: 6px;
+    font-size: 1em;
+    background-color:rgb(240, 240, 240);
+    border-style:none;
+    border-radius: 5px;
+}
+
+button:hover {
+    border-style:solid;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top:0;
+    margin-bottom:0;
 }
