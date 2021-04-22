@@ -1,0 +1,11 @@
+
+main {
+    text-align: center;
+    margin: 0;
+}
+
+
+#logo {
+    display: block;
+    margin: 200px auto 50px auto;
+}
