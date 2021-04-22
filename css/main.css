@@ -9,3 +9,49 @@ main {
     display: block;
     margin: 200px auto 50px auto;
 }
+
+#search-form {
+    max-width: 400px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#input {
+    border-style:none;
+    height: 28px;
+    flex-grow: .8;
+    outline: none;
+}
+
+#search-bubble {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 36px;
+    border-width: 1px;
+    border-color: rgb(236, 232, 232);
+    border-style:inset;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 1px rgb(190, 186, 186);
+}
+
+#search-bubble:hover {
+    box-shadow: 0 0 10px 2px rgb(190, 186, 186);
+}
+#search-icon {
+    max-height: 26px;
+    padding-left: 8px;
+}
+
+#button-div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-left: 5px;
+    margin-right: 5px;
+}
